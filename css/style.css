@@ -1,0 +1,283 @@
+/* GLOBAL */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: #161c2db3;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #ff6600;
+    display: block;
+    font-family: 'Pacifico', cursive;
+}
+
+.title h2 {
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 600;
+    color: black;
+}
+
+/* VIDEO */
+#video {
+    background-color: #ff6600;
+}
+
+#video .video__content {
+    /* position: relative; */
+}
+
+#video .video__content::before {
+    background-image: url(./../img/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.video__icon {}
+
+.play {
+    width: 80px;
+    height: 80px;
+    font-size: 26px;
+    padding-left: 2px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    color: #ff6600;
+    border: transparent;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#video .video__item iframe {
+    width: 100%;
+    height: 420px;
+    display: block;
+    border-radius: 10px;
+}
+
+/* BLOG */
+#blog {
+    background-color: #f7f7f7;
+}
+
+.blog__header {
+    position: relative;
+}
+
+.blog__header img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog__timer {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.blog__timer a {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 35px;
+    font-weight: 700;
+    font-size: 12px;
+    margin: 5px 10px 5px 0;
+    text-decoration: none;
+}
+
+.blog__timer span {
+    color: white;
+}
+
+.blog__body {
+    padding: 0;
+    margin: 0;
+}
+
+.blog__body .blog__title {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.blog__body p {
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px 0;
+}
+
+.blog__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog__left a img {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.blog__left a,
+.blog__right a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+.blog__right:hover a {
+    color: #ff6600;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+#footer {
+    background-color: black;
+    color: #a5a2a1;
+}
+
+.footer__title a,
+.footer__item h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.footer__title h3 {}
+
+.footer__title h3:hover a {
+    color: #ff6600;
+}
+
+.footer__title i {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 1rem;
+    color: #ff6600;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 0 3px;
+    transition: all 0.3s;
+}
+
+.footer__title i:hover {
+    background-color: #ff6600;
+    border: 1px solid #ff6600;
+    color: white;
+}
+
+.footer__item h3 {
+    font-size: 22px;
+}
+
+.footer__head p,
+.footer__head ul {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.footer__head .footer__item ul li {
+    list-style: none;
+    line-height: 36px;
+}
+
+.footer__head .footer__item ul li a:hover {
+    color: #ff6600;
+}
+
+.footer__head .footer__item ul li a {
+    color: #a5a2a1;
+    text-decoration: none;
+}
+
+.footer__item input {
+    width: 100%;
+    border-radius: 7px;
+    padding: 12px 20px;
+    font-size: 18px;
+}
+
+.footer__item button {
+    margin-top: 15px;
+    width: 100%;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 7px;
+    font-size: 1rem;
+    padding: 12px 45px;
+    line-height: 30px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+.footer__item button:hover {
+    background-color: #ff6600bf;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* COPYRIGHT */
+.copyright {
+    border-top: 1px solid rgb(255 255 255 / 5%);
+    background-color: black;
+    color: #a5a2a1;
+    font-size: 17px;
+}
+
+.copyright__item a {
+    text-decoration: none;
+}
+
+.copyright__item .copyright__left a {
+    font-weight: 500;
+    color: #ff6600;
+}
+
+.copyright__left a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.copyright__right {
+    padding: 0;
+}
+
+.copyright__right ul {
+    list-style: none;
+    display: flex !important;
+}
+
+.copyright__right a {
+    margin: 0 5px;
+    color: #a5a2a1;
+    font-weight: 500;
+}
+
+.copyright__right a:hover {
+    color: #ff6600;
+    cursor: pointer;
+}
