@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-#tea
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,33 +26,200 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <!-- Link swiper -->
-    <!-- <link rel="stylesheet" href="./libs/swiper/swiper.min.css" />
-            <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- Link thư viện Slick -->
+    <link rel="stylesheet" href="./libs/slick/slick.css">
+    <link rel="stylesheet" href="./libs/slick/slick-theme.css">
 
+    <!-- Link Font Flaticon -->
+    <link rel="stylesheet" href="./libs/Flaticon/flaticon.css">
+
+    <!-- Link thư viện fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+        integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+        crossorigin="anonymous" />
 
     <!-- Link CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+
+
+    <!-- FEARTURE -->
+    <section id="feature">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="feature__item">
+                        <div class="feature__grid">
+                            <div class="feature__top d-flex">
+                                <div class="feature__left">
+                                    <i class="fa-solid fa-users"></i>
+                                </div>
+                                <div class="feature__right">
+                                    <p>01</p>
+                                    <a href="#">Soup</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="feature__item">
+                        <div class="feature__grid">
+                            <div class="feature__top d-flex">
+                                <div class="feature__left">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                </div>
+                                <div class="feature__right">
+                                    <p>02</p>
+                                    <a href="#">Drinks</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="feature__item">
+                        <div class="feature__grid">
+                            <div class="feature__top d-flex">
+                                <div class="feature__left">
+                                    <i class="fa-solid fa-temperature-three-quarters"></i>
+                                </div>
+                                <div class="feature__right">
+                                    <p>03</p>
+                                    <a href="#">Pizza</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="feature__item">
+                        <div class="feature__grid">
+                            <div class="feature__top d-flex">
+                                <div class="feature__left">
+                                    <i class="fa-solid fa-hands-asl-interpreting"></i>
+                                </div>
+                                <div class="feature__right">
+                                    <p>04</p>
+                                    <a href="#">Breakfast</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="feature__item">
+                        <div class="feature__grid">
+                            <div class="feature__top d-flex">
+                                <div class="feature__left">
+                                    <i class="fa-solid fa-paintbrush"></i>
+                                </div>
+                                <div class="feature__right">
+                                    <p>05</p>
+                                    <a href="#">Lunch</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+                    <div class="feature__item">
+                        <div class="feature__grid">
+                            <div class="feature__top d-flex">
+                                <div class="feature__left">
+                                    <i class="fa-solid fa-eraser"></i>
+                                </div>
+                                <div class="feature__right">
+                                    <p>06</p>
+                                    <a href="#">Dinner</a>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur ipsum elit. Qui eligendi vitae sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ViewMore -->
+    <section id="viewmore">
+        <div class="viewmore__overlay"></div>
+        <div class="container pt-lg-2 pb-lg-4 py-5">
+            <div class="viewmore__content text-center py-lg-5 mt-5">
+                <h2>Deliciousness jumping into the mouth.</h2>
+                <div class="viewmore__button m-5">
+                    <a href="#">
+                        <button class="viewmore__btnLeft mx-3">
+                            Readmore
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </a>
+                    <a href="#">
+                        <button class="viewmore__btnRight mx-3">
+                            Contact Us
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- COUNT -->
-    <section id="count">
-
-
+    <section id="counter">
+        <div class="container">
+            <div class="row">
+                <div class=" col-6 col-md-3">
+                    <div class="counter__item">
+                        <i class="fa-solid fa-building"></i>
+                        <p class="counter">15,100</p>
+                        <span>Branches</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="counter__item">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="counter">19,256</p>
+                        <span>Food Items</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="counter__item">
+                        <i class="fa-solid fa-users"></i>
+                        <p class="counter">12,100</p>
+                        <span>Chefs</span>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="counter__item">
+                        <i class="fa-solid fa-face-smile"></i>
+                        <p class="counter">2,560</p>
+                        <span>Happy Customers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- VIDEO -->
     <section id="video">
-        <div class="video__content container py-lg-5">
-            <div class="video__item">
-                <a class="video__icon" href="#video__play">
-                    <i class="play fa-solid fa-play"></i>
-                </a>
-                <div id="video__play">
-                    <iframe src="https://player.vimeo.com/video/305185528" frameborder="0" allow="autoplay, fullscreen"
-                        allowfullscreen></iframe>
+        <div class="container py-lg-5">
+            <div class="video__play">
+                <div class="video__bg">
+                    <div id="video__src">
+                        <a class="iframe" href="https://player.vimeo.com/video/305185528" allow="autoplay, fullscreen">
+                            <i class="fas fa-play media-icon"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -66,7 +233,7 @@
                 <h2>Blog Posts</h2>
             </div>
             <div class="row">
-                <div class="item col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5">
                     <div class="blog__header">
                         <a class="blog__1" href="#">
                             <img src="./img/banner1.jpg" alt="banner1">
@@ -98,7 +265,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5">
                     <div class="blog__header">
                         <a href="#">
                             <img src="./img/banner3.jpg" alt="banner3">
@@ -130,7 +297,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="item col-lg-4 col-md-6 mt-5">
+                <div class="col-lg-4 col-md-6 mt-5">
                     <div class="blog__header">
                         <a href="#">
                             <img src="./img/banner1.jpg" alt="banner1">
@@ -163,8 +330,6 @@
                     </div>
                 </div>
             </div>
-            <div class="blog__item">
-            </div>
     </section>
 
     <!-- TESTIMONIAL -->
@@ -175,134 +340,76 @@
                 <h2>What People Say</h2>
             </div>
             <div class="testimonial-content text-center">
-                <!-- Swiper -->
-                <div class="swiper mySwiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-pic">
+                <div class="slick__slide text-center">
+                    <div class="slick__item mb-3">
+                        <div class="testimonial-pic">
+                            <a href="#">
                                 <img src="./img/team1.jpg" alt="team1">
-                                <div class="shape-bx"></div>
-                            </div>
-                            <i class="flaticon-quotation"></i>
-                            <h2 class="testimonial-name">OMG! I cannot believe. It's Awesome</h2>
-                            <p>My new site is so much faster and easier to work with than my old site. They are here
-                                to
-                                help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                                Pellen tesque libero ut justo, ultrices in ligula.
-                            </p>
-                            <h3>Johnson william</h3>
-                            <span>Customer</span>
+                            </a>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-pic">
+                        <i class="fa-solid fa-quote-left my-3"></i>
+                        <h2>OMG! I cannot believe. It's Awesome"</h2>
+                        <p>My new site is so much faster and easier to work with than my old site. They are here
+                            to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.
+                        </p>
+                        <h3>Johnson william</h3>
+                        <span>Customer</span>
+                    </div>
+                    <div class="slick__item mb-3">
+                        <div class="testimonial-pic">
+                            <a href="#">
                                 <img src="./img/team2.jpg" alt="team2">
-                                <div class="shape-bx"></div>
-                            </div>
-                            <i class="flaticon-quotation"></i>
-                            <h2 class="testimonial-name">Simply the best. Better than all the rest.</h2>
-                            <p>My new site is so much faster and easier to work with than my old site. They are here
-                                to
-                                help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                                Pellen tesque libero ut justo, ultrices in ligula.
-                            </p>
-                            <h3>Alexander sakura</h3>
-                            <span>Customer</span>
+                            </a>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-pic">
+                        <i class="fa-solid fa-quote-left my-3"></i>
+                        <h2>Simply the best. Better than all the rest."</h2>
+                        <p>My new site is so much faster and easier to work with than my old site. They are here
+                            to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.
+                        </p>
+                        <h3>Alexander sakura</h3>
+                        <span>Customer</span>
+                    </div>
+                    <div class="slick__item mb-3">
+                        <div class="testimonial-pic">
+                            <a href="#">
                                 <img src="./img/team3.jpg" alt="team3">
-                                <div class="shape-bx"></div>
-                            </div>
-                            <i class="flaticon-quotation"></i>
-                            <h2 class="testimonial-name">OMG! I cannot believe. It's Awesome</h2>
-                            <p>My new site is so much faster and easier to work with than my old site. They are here
-                                to
-                                help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                                Pellen tesque libero ut justo, ultrices in ligula.</p>
-                            <h3>John wilson</h3>
-                            <span>Customer</span>
+                            </a>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-pic">
-                                <img src="./img/team3.jpg" alt="team3">
-                                <div class="shape-bx"></div>
-                            </div>
-                            <i class="flaticon-quotation"></i>
-                            <h2 class="testimonial-name">OMG! I cannot believe. It's Awesome</h2>
-                            <p>My new site is so much faster and easier to work with than my old site. They are here
-                                to
-                                help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                                Pellen tesque libero ut justo, ultrices in ligula.</p>
-                            <h3>Julia sakura</h3>
-                            <span>Customer</span>
+                        <i class="fa-solid fa-quote-left my-3"></i>
+                        <h2>OMG! I cannot believe. It's Awesome"</h2>
+                        <p>My new site is so much faster and easier to work with than my old site. They are here
+                            to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.</p>
+                        <h3>John wilson</h3>
+                        <span>Customer</span>
+                    </div>
+                    <div class="slick__item mb-3">
+                        <div class="testimonial-pic">
+                            <a href="#">
+                                <img src="" alt="">
+                            </a>
                         </div>
+                        <i class="fa-solid fa-quote-left my-3"></i>
+                        <h2>OMG! I cannot believe. It's Awesome"</h2>
+                        <p>My new site is so much faster and easier to work with than my old site. They are here
+                            to
+                            help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
+                            Pellen tesque libero ut justo, ultrices in ligula.</p>
+                        <h3>Julia sakura</h3>
+                        <span>Customer</span>
                     </div>
                 </div>
-
-                <!-- <div class="swiper mySwiper testimonial-comment text-center">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-text">
-                                <i class="flaticon-quotation"></i>
-                                <h2 class="testimonial-name">OMG! I cannot believe. It's Awesome</h2>
-                                <p>My new site is so much faster and easier to work with than my old site. They are here
-                                    to
-                                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                                    Pellen tesque libero ut justo, ultrices in ligula.
-                                </p>
-                                <h3>Johnson william</h3>
-                                <span>Customer</span>
-                            </div>
-
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-text">
-                                <i class="flaticon-quotation"></i>
-                                <h2 class="testimonial-name">Simply the best. Better than all the rest.</h2>
-                                <p>My new site is so much faster and easier to work with than my old site. They are here
-                                    to
-                                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                                    Pellen tesque libero ut justo, ultrices in ligula.
-                                </p>
-                                <h3>Alexander sakura</h3>
-                                <span>Customer</span>
-                            </div>
-
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-text">
-                                <i class="flaticon-quotation"></i>
-                                <h2 class="testimonial-name">OMG! I cannot believe. It's Awesome</h2>
-                                <p>My new site is so much faster and easier to work with than my old site. They are here
-                                    to
-                                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                                    Pellen tesque libero ut justo, ultrices in ligula.</p>
-                                <h3>John wilson</h3>
-                                <span>Customer</span>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testimonial-text">
-                                <i class="flaticon-quotation"></i>
-                                <h2 class="testimonial-name">OMG! I cannot believe. It's Awesome</h2>
-                                <p>My new site is so much faster and easier to work with than my old site. They are here
-                                    to
-                                    help the customers to get their success. Nemo sit eos, quod minus eius illo labore.
-                                    Pellen tesque libero ut justo, ultrices in ligula.</p>
-                                <h3>Julia sakura</h3>
-                                <span>Customer</span>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div> -->
-
             </div>
         </div>
     </section>
 
-    <section id="footer">
+    <!-- FOOTER -->
+    <footer>
         <div class="container footer__head">
             <div class="row py-5">
                 <div class="footer__title col-12 col-sm-6 col-lg-4">
@@ -370,7 +477,8 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
+    <!-- COPYRIGHT -->
     <section class="copyright">
         <div class="container py-2">
             <div class="row py-3 copyright__item">
@@ -410,59 +518,50 @@
         integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
         crossorigin="anonymous"></script>
 
-    <!-- Link swiper -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+    <!-- Link waypoint của thẻ COUNT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+        integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./libs/countup/jquery.countup.min.js"></script>
     <script>
-        var testimonialThumbs = new Swiper(".testimonial-thumbs", {
-            spaceBetween: 10,
-            slidesPerView: 3,
-            centeredSlides: true,
-            freeMode: true,
-            autoplay: true,
-            loop: true,
-            speed: 3000,
+        $('.counter').countUp();
+    </script>
+
+    <!-- Link js fancybox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+        integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            /* This is basic - uses default settings */
+            $("a#iframe").fancybox();
 
         });
-        var testimonialContent = new Swiper(".testimonial-comment", {
-            spaceBetween: 10,
-            autoplay: true,
-            loop: true,
-            speed: 3000,
-            thumbs: {
-                swiper: testimonialThumbs
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true
-            }
-        });
+    </script>
 
+    <!-- Link Bowser - Count 1 times -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/2.11.0/bundled.js"
+        integrity="sha512-FS3rpwhhjq9Tjt/U+qIrgOIa60xmW+Kr71CSGS5ifKJl/E9DdODyUrtentDS6eRmrfXPRzqq0DhywHd06qpdGw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Link slick -->
+    <script src="./libs/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slick__slide').slick({
+                // setting- name: setting - value
+                arrows: false,
+                autoplay: false,
+                dots: true,
+            });
+        });
 
     </script>
-    <!-- <script>
-                const swiper = new Swiper('.swiper', {
-                    // Optional parameters
-                    direction: 'vertical',
-                    loop: true,
-        
-                    // If we need pagination
-                    pagination: {
-                        el: '.swiper-pagination',
-                    },
-        
-                    // Navigation arrows
-                    navigation: {
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                    },
-        
-                    // And if we need scrollbar
-                    scrollbar: {
-                        el: '.swiper-scrollbar',
-                    },
-                });
-            </script> -->
 </body>
 
 </html>
