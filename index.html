@@ -211,7 +211,7 @@
     </section>
 
     <!-- VIDEO -->
-    <section id="video">
+    <section id="video" class="zoom-anim-dialog mfp-hide">
         <div class="container py-lg-5">
             <div class="video__play">
                 <div class="video__bg">
@@ -391,7 +391,7 @@
                     <div class="slick__item mb-3">
                         <div class="testimonial-pic">
                             <a href="#">
-                                <img src="" alt="">
+                                <img src="" alt="placeholder image">
                             </a>
                         </div>
                         <i class="fa-solid fa-quote-left my-3"></i>
@@ -507,6 +507,9 @@
         </div>
     </section>
 
+    <!-- back-to-top -->
+    <button href="#" class="backToTop cd-top text-replace js-cd-top">⤴</button>
+
     <!-- Link bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -560,8 +563,11 @@
                 dots: true,
             });
         });
-
     </script>
+
+    <!-- Link BackToTop -->
+    <script src="./libs/backToTop/util.js"></script>
+    <script src="./libs/backToTop/main.js"></script>
 </body>
 
 </html>
