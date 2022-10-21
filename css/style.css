@@ -278,6 +278,7 @@ body {
     margin: auto;
     text-align: center;
     width: 100%;
+    border-radius: 6px;
 }
 .gal-slide-grid .gal-slide-info {
     opacity: 1;
